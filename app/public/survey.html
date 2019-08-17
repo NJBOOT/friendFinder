@@ -202,7 +202,7 @@
             let currentURL = window.location.origin
             $.post(currentURL + "/api/friends", input, function (data) {
                 $("#match-name").html(data.name)
-                $("match-pic").attr("src",data.photo)
+                $("#match-pic").attr("src","profile-generic.png")
                 $('#myModal').modal('show');
                 console.log(data)
             });

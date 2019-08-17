@@ -14,7 +14,6 @@ module.exports = function (app) {
             name: "",
             photo: "",
             difference: 1000
-
         }
         // loop through other users 
         for (let i =0; i < friends.length;i++){
